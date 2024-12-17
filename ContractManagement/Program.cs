@@ -45,6 +45,8 @@ namespace ContractManagement
                 worker.AddContract(contract);
             }
 
+            //TODO: To replace Split() method to Substring.
+            //TODO: Verify why te result is being 2200 instead of 3000.
             System.Console.Write("Enter month and year to calculate income (MM/YYYY):");
             string[] incomeDate = Console.ReadLine().Split('/');
             double income = worker.Income(int.Parse(incomeDate[1]), int.Parse(incomeDate[0]));
