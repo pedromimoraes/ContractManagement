@@ -1,5 +1,6 @@
 ﻿using ContractManagement.Entities;
 using ContractManagement.Entities.Enums;
+using System.Globalization;
 
 namespace ContractManagement
 {
@@ -19,7 +20,7 @@ namespace ContractManagement
             WorkerLevel level = Enum.Parse<WorkerLevel>(Console.ReadLine());
 
             System.Console.Write("Base salary: ");
-            double baseSalary = double.Parse(Console.ReadLine());
+            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             System.Console.Write("How many contracts to this worker? ");
             int contractsNumber = int.Parse(Console.ReadLine());
@@ -32,8 +33,8 @@ namespace ContractManagement
             {
                 System.Console.WriteLine($"Enter #{i} contract data: ");
 
-                System.Console.Write("Date (MM/DD/YYYY): ");
-                DateTime date = DateTime.Parse(Console.ReadLine());
+                System.Console.Write("Date (DD/MM/YYYY): ");
+                DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy",CultureInfo.InvariantCulture);
 
                 System.Console.Write("Value per hour: ");
                 double valuePerHour = double.Parse(Console.ReadLine());
@@ -45,15 +46,15 @@ namespace ContractManagement
                 worker.AddContract(contract);
             }
 
-            //TODO: To replace Split() method to Substring.
-            //TODO: Verify why te result is being 2200 instead of 3000.
             System.Console.Write("Enter month and year to calculate income (MM/YYYY):");
-            string[] incomeDate = Console.ReadLine().Split('/');
-            double income = worker.Income(int.Parse(incomeDate[1]), int.Parse(incomeDate[0]));
+            string monthAndYear = Console.ReadLine();
+            int month = int.Parse(monthAndYear.Substring(0, 2));
+            int year = int.Parse(monthAndYear.Substring(3));
 
-            System.Console.WriteLine($"Name {worker.Name}");
-            System.Console.WriteLine($"Departament {worker.Departament}");
-            System.Console.WriteLine($"Income for {incomeDate[0]}/{incomeDate[1]}: {income}");
+
+            System.Console.WriteLine($"Name: {worker.Name}");
+            System.Console.WriteLine($"Departament: {worker.Departament.Name}");
+            System.Console.WriteLine($"Income for {monthAndYear}: {worker.Income(year, month)}");
 
         }
     }

@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace ContractManagement.Entities
 {
     class HourContract

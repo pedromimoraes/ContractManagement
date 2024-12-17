@@ -34,7 +34,7 @@ namespace ContractManagement.Entities
             {
                 if(contract.Date.Year == year && contract.Date.Month == month)
                 {
-                    return sum += contract.TotalValue();
+                    sum += contract.TotalValue();
                 }
             }
             return sum;
