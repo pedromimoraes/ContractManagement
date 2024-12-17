@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2024-12-16T20:04:06" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2024-12-16T23:17:53" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.3 http://umbrello.kde.org</XMI.exporter>
@@ -35,12 +35,13 @@
         <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uWzsqDuGr0ubR" name="unsigned long int" namespace="Datatypes" visibility="public"/>
         <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uqGdUxynbt3GP" name="long double" namespace="Datatypes" visibility="public"/>
         <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="ucUyCIZkkjemU" name="wchar_t" namespace="Datatypes" visibility="public"/>
+        <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u7Yy9aUmMKEMi" name="undef" namespace="Datatypes" visibility="public"/>
        </UML:Namespace.ownedElement>
       </UML:Package>
       <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u8efl6FPIOB2Y" name="Worker" namespace="Logical_View" visibility="public">
        <UML:Classifier.feature>
         <UML:Attribute isSpecification="false" xmi.id="uoYhXzUouoO6g" name="name" visibility="private" type="uCb92M41B0qEn"/>
-        <UML:Attribute isSpecification="false" xmi.id="uP6xT84vTdBPl" name="level" visibility="private" type="uXD331RLxvd8W"/>
+        <UML:Attribute isSpecification="false" xmi.id="uP6xT84vTdBPl" name="level" visibility="private" type="u7Yy9aUmMKEMi"/>
         <UML:Attribute isSpecification="false" xmi.id="uEriUFBwgGhqS" name="baseSalary" visibility="private" type="uzROgDb3i485d"/>
         <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uUdjpd0sN29FC" name="addContract" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false">
          <UML:BehavioralFeature.parameter>
@@ -54,6 +55,7 @@
         </UML:Operation>
         <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uLSTuU1j9OB0f" name="income" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false">
          <UML:BehavioralFeature.parameter>
+          <UML:Parameter xmi.id="" type="uzROgDb3i485d" kind="return"/>
           <UML:Parameter isSpecification="false" xmi.id="urmcY6UXsO2yQ" name="year" visibility="private" type="u8rxp7zBpiqhZ" value=""/>
           <UML:Parameter isSpecification="false" xmi.id="u3L6Cdf6j4OSk" name="month" visibility="private" type="u8rxp7zBpiqhZ" value=""/>
          </UML:BehavioralFeature.parameter>
@@ -100,14 +102,14 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="96">
-       <diagram xmi.id="u78GDwuRjqCpp" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="0" canvaswidth="0" isopen="0">
+       <diagram xmi.id="u78GDwuRjqCpp" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="0" canvaswidth="0" isopen="1">
         <widgets/>
         <messages/>
         <associations/>
        </diagram>
-       <diagram xmi.id="uh31tZn4o2tEF" name="contract_management_diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="123" canvasheight="278.553" canvaswidth="660.449" isopen="1">
+       <diagram xmi.id="uh31tZn4o2tEF" name="contract_management_diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="123" canvasheight="280.179" canvaswidth="654.761" isopen="1">
         <widgets>
-         <classwidget xmi.id="u8efl6FPIOB2Y" localid="uesF6m7qjNPTG" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8878.12" y="-542.065" width="315" height="98" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showstereotype="2"/>
+         <classwidget xmi.id="u8efl6FPIOB2Y" localid="uesF6m7qjNPTG" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-8872.43" y="-543.691" width="315" height="98" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showstereotype="2"/>
          <classwidget xmi.id="uAHXMBsqrzDV4" localid="uKDyxzIkBTsMt" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-8370.26" y="-535.632" width="152" height="70" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showstereotype="2"/>
          <floatingtext xmi.id="uGaJnn1fLfDQZ" localid="uVKrnWzCZKwUT" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-8453.4" y="-528.319" width="72" height="18" isinstance="0" showstereotype="2" text="- contracts" pretext="" posttext="" role="700"/>
          <floatingtext xmi.id="uGaJnn1fLfDQZ" localid="ugluSWgQiD8Jo" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-8732.55" y="-330.895" width="94" height="18" isinstance="0" showstereotype="2" text="- departament" pretext="" posttext="" role="700"/>
@@ -121,13 +123,13 @@
         <associations>
          <assocwidget xmi.id="usxwCk5FMjKEM" localid="uf8JUHr0ytjpT" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" xmi.id="usxwCk5FMjKEM" type="512" widgetaid="u8efl6FPIOB2Y" widgetbid="unFxgjsWHALdI" indexa="1" totalcounta="2" indexb="1" totalcountb="2">
           <linepath layout="Direct">
-           <startpoint startx="-8735.74" starty="-444.065"/>
+           <startpoint startx="-8735.74" starty="-445.691"/>
            <endpoint endx="-8735.74" endy="-298.512"/>
           </linepath>
          </assocwidget>
          <assocwidget xmi.id="umJXShHR8JVrS" localid="urVs7nl4QbFK9" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" xmi.id="umJXShHR8JVrS" type="512" widgetaid="u8efl6FPIOB2Y" widgetbid="uAHXMBsqrzDV4" indexa="1" totalcounta="2" indexb="1" totalcountb="2">
           <linepath layout="Direct">
-           <startpoint startx="-8563.12" starty="-497.996"/>
+           <startpoint startx="-8557.43" starty="-497.996"/>
            <endpoint endx="-8370.26" endy="-497.996"/>
           </linepath>
          </assocwidget>
@@ -152,7 +154,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uh31tZn4o2tEF" documentation="" uniqueid="uYlOhtsYRV96p"/>
+  <docsettings viewid="uh31tZn4o2tEF" documentation="" uniqueid="u5JYhBytkBANe"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Component_View" type="821" open="1"/>
@@ -175,6 +177,7 @@
       <listitem id="uO9ViMaT2xpPB" type="829" open="0"/>
       <listitem id="uTB3qebfJLGuD" type="829" open="0"/>
       <listitem id="uCb92M41B0qEn" type="829" open="0"/>
+      <listitem id="u7Yy9aUmMKEMi" type="829" open="0"/>
       <listitem id="u8tX8EQCDp0nH" type="829" open="0"/>
       <listitem id="u8njl05qqUH8l" type="829" open="0"/>
       <listitem id="uWzsqDuGr0ubR" type="829" open="0"/>
