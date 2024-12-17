@@ -28,13 +28,15 @@ namespace ContractManagement.Entities
 
         public Double Income(int year, int month)
         {
+            double sum = BaseSalary;
             foreach(HourContract contract in HourContracts)
             {
-                if(contract.Year == year && contract.Month == month)
+                if(contract.Date.Year == year && contract.Date.Month == month)
                 {
-
+                    return sum += contract.TotalValue();
                 }
             }
+            return sum;
         }
 
     }
