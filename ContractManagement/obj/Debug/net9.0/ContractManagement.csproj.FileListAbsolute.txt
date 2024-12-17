@@ -1,0 +1,15 @@
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/bin/Debug/net9.0/ContractManagement
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/bin/Debug/net9.0/ContractManagement.deps.json
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/bin/Debug/net9.0/ContractManagement.runtimeconfig.json
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/bin/Debug/net9.0/ContractManagement.dll
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/bin/Debug/net9.0/ContractManagement.pdb
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.GeneratedMSBuildEditorConfig.editorconfig
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.AssemblyInfoInputs.cache
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.AssemblyInfo.cs
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.csproj.CoreCompileInputs.cache
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.sourcelink.json
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.dll
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/refint/ContractManagement.dll
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.pdb
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ContractManagement.genruntimeconfig.cache
+/home/pedro/Desktop/CSHARP/ContractManagement/ContractManagement/obj/Debug/net9.0/ref/ContractManagement.dll

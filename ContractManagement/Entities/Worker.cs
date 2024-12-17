@@ -10,11 +10,12 @@ namespace ContractManagement.Entities
         public Departament Departament { get; private set; }
         public List<HourContract> HourContracts { get; private set; } = new List<HourContract>();
 
-        public Worker(string name, WorkerLevel level, double baseSalary)
+        public Worker(string name, WorkerLevel level, double baseSalary, Departament departament)
         {
             Name = name;
             Level = level;
             BaseSalary = baseSalary;
+            Departament = departament;
         }
 
         public void AddContract(HourContract contract)
